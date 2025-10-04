@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtuaalne Tantsutuba</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #ff0099;
+      text-shadow: 0 0 15px #ff0099;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff0099; }
+      to { text-shadow: 0 0 25px #ff66cc; }
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      color: #ddd;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ff99cc;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+      background: #ff0099;
+      box-shadow: 0 0 10px #ff0099;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ff33aa;
+      box-shadow: 0 0 20px #ff33aa;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Virtuaalne Tantsutuba</h1>
+    <p>Tule tantsima, õppima või trenni tegema – kõik online’s! 💃🕺</p>
+
+    <nav>
+      <a href="#tantsutuba">Tantsutuba</a> |
+      <a href="#opituba">Õpituba (tulekul)</a> |
+      <a href="#trennituba">Trennituba (tulekul)</a>
+    </nav>
+
+    <div id="tantsutuba">
+      <a href="https://meet.jit.si/VirtuaalneTantsutuba" class="btn">Liitu tantsuruumiga</a>
+      <a href="https://www.youtube.com/watch?v=1y6smkh6c-0&list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI" 
+         class="btn" target="_blank">Kuula muusikat</a>
+    </div>
+
+    <div id="opituba" style="margin-top:50px;">
+      <p><i>Õpituba tuleb peagi – siin saab tulevikus õppida uusi samme ja stiile 🎶</i></p>
+    </div>
+
+    <div id="trennituba" style="margin-top:50px;">
+      <p><i>Trennituba tuleb peagi – virtuaalne fitness ja tantsutrenn 🏋️‍♂️</i></p>
+    </div>
+
+  </header>
+  <footer>
+    © 2025 Virtuaalne Tantsutuba – Koos loome liikumise!
+  </footer>
+</body>
+</html>
